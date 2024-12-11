@@ -1,16 +1,17 @@
 .header {
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    z-index: 9999;
     /* padding: 15px 0; */
-    border-bottom: 1px solid #fffafa;
-    transition: all 0.7s ease-in-out;
+    /* transition: all 0.7s ease-in-out; */
     background: #fff;
 }
+.header-inner {
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #AE1F24;
+}
 .logo {
-    max-width: 140px;
+    max-width: 130px;
    
 }
 
@@ -59,34 +60,39 @@ nav ul {
     left: 0;
     right: 0;
     width: 100%;
+    z-index: -1;
     background: #fff;
-    height: 0;
+    /* height: 0; */
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    opacity: 0;
+    /* opacity: 0; */
+    padding: 40px 0; 
+    transform: translateY(-100%);
 }
 .nav-dropdown:hover .dropdown-body {
-    height: auto;
-    padding: 40px 0; 
+    transform: translateY(0%);
+    /* height: auto; */
     opacity: 1;
 }
 .dd-inner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .7fr;
     align-items: center;
     gap: 80px;
+    width: 100%;
 }
 .dd-col {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
 }
 .dd-col .dd-slider {
-    max-width: 500px;
+    max-width: 400px;
     width: 90%;
 }
 .dd-col-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 80px;
+    gap: 60px;
 } 
 .dd-col-content ul {
     display: flex;
@@ -102,6 +108,40 @@ nav ul {
 .dd-link.head {
     font-size: 22px;
     font-weight: 700;
+    color: #AE1F24;
+}
+.dd-btn-grp {
+    margin-top: 40px;
+    display: flex;
+}
+.dd-btn-grp .secondry-btn {
+    background: #AE1F24;
+    color: #fff;
+    padding: 10px 15px;
+}
+.dd-inner.dd-programs {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: stretch;
+}
+.dd-img-wrapper {
+    height: 220px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.dd-img-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.dd-inner.dd-programs .dd-link.head {
+    font-size: 20px;
+}
+.dd-btn-grp.dd-program {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 @media screen and (max-width: 1280px) {
     .logo {
