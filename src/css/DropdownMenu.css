@@ -1,0 +1,79 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown-icon {
+  color: #000;
+  display: flex;
+  font-size: 22px;
+  padding: 30px 0;
+  font-family: "Blinker", sans-serif;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  overflow: hidden;
+  width: max-content;
+  display: flex; /* Initially hidden */
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+  opacity: 0;
+}
+.dropdown:hover .dropdown-menu {
+  /* display: flex; */
+  height: auto;
+  opacity: 1;
+}
+.dropdown-menu li {
+  width: 100%;
+}
+.dropdown-menu li a:hover {
+  background-color: #581010;
+}
+.dropdown-menu .dropdown-link-item {
+  text-decoration: none;
+  color: #470000;
+  font-size: 18px;
+  display: block;
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #470000;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+.dropdown-menu .dropdown-link-item:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px; /* Set the height of the underline */
+  background: #fff; /* Line color */
+  width: 0; /* Initial width to zero */
+  transition: width 0.4s ease-in-out; /* Smooth width transition */
+}
+.dropdown-menu .dropdown-link-item:hover:after {
+  width: 100%; /* Expand the line to full width on hover */
+}
+.dropdown-menu .dropdown-link-item:hover {
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .dropdown-icon {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+}
