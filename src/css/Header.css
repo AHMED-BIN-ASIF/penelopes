@@ -59,9 +59,16 @@ nav ul {
     left: 0;
     right: 0;
     width: 100%;
-    background: #fffafae7;
-    padding: 40px 0;
-    display: none;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+.nav-dropdown:hover .dropdown-body {
+    height: auto;
+    padding: 40px 0; 
+    opacity: 1;
 }
 .dd-inner {
     display: grid;
