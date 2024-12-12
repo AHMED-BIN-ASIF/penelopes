@@ -89,6 +89,7 @@ footer .icon {
     footer .logo {
         text-align: center;
         font-size: 24px;
+        margin: 0 auto 30px;
     }
     .join-col h4 {
         text-align: center;

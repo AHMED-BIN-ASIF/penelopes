@@ -37,3 +37,9 @@
 .donors-sponsors-section .btn-grp {
     margin-top: 40px;
 }
+@media screen and (max-width:768px) {
+    .donors-sponsors-section {
+        padding: 40px 0;
+        overflow: hidden;
+    }
+}

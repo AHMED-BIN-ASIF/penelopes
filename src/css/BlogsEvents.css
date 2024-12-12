@@ -10,7 +10,6 @@
     margin-bottom: 40px;
 }
 .blogs-events .secondry-heading {
-    font-size: 2.5rem;
     text-align: left;
 }
 
@@ -66,4 +65,13 @@
     font-size: 0.85rem;
     color: #999;
     font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .blogs-events-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .blogs-events .primary-btn {
+        display: none;
+    }
 }

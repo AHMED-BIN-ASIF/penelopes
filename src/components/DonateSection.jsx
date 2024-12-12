@@ -16,7 +16,7 @@ const DonateSection = () => {
             Together, we can bring hope and change lives. Every contribution,
             big or small, helps us in our mission to make a lasting impact.
           </p>
-          <a href="/donate" className="donate-btn">
+          <a href="/donate" className="primary-btn donate-btn">
             Donate Now
           </a>
         </div>

@@ -91,12 +91,11 @@
     .cta-inner {
       grid-template-columns: 1fr !important ;
     }
-
     .cta-col-content {
-        order: 1;
+        order: 2 !important;
     }
     .cta-col-img {
-        order: 2;
+        order: 1 !important;
     }
     
   }
