@@ -42,13 +42,13 @@
     background: #161A56;
   }
   .team-card:last-of-type {
-    grid-column: span 3;
+    grid-column: span 2;
   }
   
   
   .team-img-wrapper {
     overflow: hidden;
-    max-height: 300px;
+    max-height: 200px;
   }
   
   .team-img {
@@ -75,5 +75,25 @@
   .team-role {
     font-size: 1rem;
     color: #bbb;
+  }
+  @media screen and (max-width:992px) {
+    .team-name {
+    font-size: 1rem;
+  }
+  .team-role {
+    font-size: .8rem;
+  }
+  .team-img-wrapper {
+    max-height: 140px;
+}
+  }
+  @media screen and (max-width:768px) {
+    .team-row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .team-card:last-of-type {
+        grid-column: span 1;
+      }
   }
   

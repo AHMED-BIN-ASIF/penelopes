@@ -30,6 +30,12 @@ const TeamSection = () => {
       role: "Outreach Specialist",
       image: Member1,
     },
+    {
+      id: 5,
+      name: "Our Team",
+      role: "Volunteer Team",
+      image: Member1,
+    },
   ];
 
   return (

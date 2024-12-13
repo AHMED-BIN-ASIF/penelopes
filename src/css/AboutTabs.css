@@ -64,7 +64,7 @@
 }
 @media (max-width: 768px) {
   .tab-headers {
-    display: block;
+    display: none;
   }
 
   .tab-button {
