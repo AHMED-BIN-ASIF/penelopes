@@ -1,25 +1,43 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f1c130b.css",
-    "main.js": "/static/js/main.4eadcbdd.js",
-    "static/js/453.bfc9504a.chunk.js": "/static/js/453.bfc9504a.chunk.js",
+    "main.css": "/static/css/main.79b99660.css",
+    "main.js": "/static/js/main.672e895d.js",
+    "static/js/453.3b153743.chunk.js": "/static/js/453.3b153743.chunk.js",
     "static/media/event-img.jpg": "/static/media/event-img.daeb013db865e78afbf9.jpg",
-    "static/media/sponsor-logo.jpg": "/static/media/sponsor-logo.d8bc51315a41c81c96f6.jpg",
+    "static/media/tidyupauto.PNG": "/static/media/tidyupauto.e31d0395d1449d8d5bf1.PNG",
     "static/media/hero.avif": "/static/media/hero.82ba85b182477937a773.avif",
+    "static/media/cabaret4a.png": "/static/media/cabaret4a.4396e8b2c1aa0c3acf9f.png",
     "static/media/brand.PNG": "/static/media/brand.1b93d488f3fdc5ee7b15.PNG",
     "static/media/hero.jpg": "/static/media/hero.61396dd4a33f3a1d7fe1.jpg",
     "static/media/support-img.webp": "/static/media/support-img.62edba70e01a35fedf48.webp",
+    "static/media/nutley2.png": "/static/media/nutley2.563537563da1cd487289.png",
+    "static/media/womans-club.png": "/static/media/womans-club.dbb0fce084190deefe76.png",
+    "static/media/thunderclap-webheader.PNG": "/static/media/thunderclap-webheader.50181c9358ee5572513f.PNG",
+    "static/media/trivia-rrevolution.jpg": "/static/media/trivia-rrevolution.09d02102723dcbafc051.jpg",
+    "static/media/nutleyrotary.png": "/static/media/nutleyrotary.7046bc4386eb0be0a249.png",
+    "static/media/varsityclub.PNG": "/static/media/varsityclub.e190fe37ac0d592ab55f.PNG",
+    "static/media/west-milford.jpg": "/static/media/west-milford.4560599d560e643d5cd5.jpg",
+    "static/media/roscommon.jpg": "/static/media/roscommon.34fe48ebbc271fddd851.jpg",
+    "static/media/e-cleaning-logo.png": "/static/media/e-cleaning-logo.45059a25cc28220ff12a.png",
+    "static/media/nutley1.png": "/static/media/nutley1.a6742c75bc25316f1fef.png",
+    "static/media/rownj.png": "/static/media/rownj.de858d325bbfe0b822c6.png",
+    "static/media/nutley-crew.jpg": "/static/media/nutley-crew.fb3d56272943d987ea9e.jpg",
+    "static/media/goryeb.jpg": "/static/media/goryeb.32acbed8730d17981204.jpg",
+    "static/media/prra.jpg": "/static/media/prra.cc9ecf92e65bdd39fd82.jpg",
+    "static/media/sarahsfight.jpg": "/static/media/sarahsfight.3846a2fa81556f3c8660.jpg",
+    "static/media/bellpolice.jpeg": "/static/media/bellpolice.7700d99bad27ef64c7e7.jpeg",
+    "static/media/sigep.png": "/static/media/sigep.d9429a614b90c5b67104.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.7f1c130b.css.map": "/static/css/main.7f1c130b.css.map",
-    "main.4eadcbdd.js.map": "/static/js/main.4eadcbdd.js.map",
-    "453.bfc9504a.chunk.js.map": "/static/js/453.bfc9504a.chunk.js.map"
+    "main.79b99660.css.map": "/static/css/main.79b99660.css.map",
+    "main.672e895d.js.map": "/static/js/main.672e895d.js.map",
+    "453.3b153743.chunk.js.map": "/static/js/453.3b153743.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f1c130b.css",
-    "static/js/main.4eadcbdd.js"
+    "static/css/main.79b99660.css",
+    "static/js/main.672e895d.js"
   ]
 }
