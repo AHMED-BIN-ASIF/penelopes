@@ -1,10 +1,10 @@
 import React from "react";
-import "../css/Programs.css"; // Use the same styling
+import "../css/ProgramsSection.css"; // Use the same styling
 import { Link } from "react-router-dom";
 import Program1 from "../assets/images/support-img.webp";
 import Program2 from "../assets/images/hero.jpg";
 
-const Programs = () => {
+const ProgramsSection = () => {
   // Services data for dynamic rendering
   const services = [
     {
@@ -70,4 +70,4 @@ const Programs = () => {
   );
 };
 
-export default Programs;
+export default ProgramsSection;

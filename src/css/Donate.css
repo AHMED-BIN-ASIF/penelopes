@@ -1,0 +1,126 @@
+/* Donate.css */
+
+/* Main container styling */
+.hero-donate {
+    background: linear-gradient(120deg, #f05b29 0%, #000 20%, #000 80%, #AE1F24 100% ) !important;
+    text-align: center;
+}
+.hero-donate .banner-left {
+    margin: 0 auto;
+}
+.hero-donate .banner-detail {
+    margin-inline: auto;
+}
+.donate {
+    padding: 120px 0;
+}
+
+.donate .container-small {
+    max-width: 992px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Grid layout for the donation form */
+.donate-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.donate-row .col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and textarea styles */
+.donate-row input, 
+.donate-row textarea,
+.donate-row select {
+    margin-top: 8px;
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: "Blinker", sans-serif;
+}
+.donate-row input:focus,
+.donate-row textarea:focus {
+    border-color: #007BFF;
+}
+
+/* Custom select dropdown */
+.custom-select-container {
+    position: relative;
+    width: 100%;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    padding-right: 40px; /* Space for the dropdown icon */
+    appearance: none; /* Removes default dropdown arrow */
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.custom-select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Custom chevron icon */
+.custom-select-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-4px);
+    font-size: 14px;
+    color: #333;
+    pointer-events: none;
+}
+
+/* Checkboxes styling */
+.checkbox-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.checkbox-group input {
+    margin: 0;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .donate {
+        padding: 60px 0;
+    }
+
+    .donate-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .checkbox-group label {
+        font-size: 14px;
+    }
+}

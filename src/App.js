@@ -5,6 +5,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import Programs from './pages/Programs';
+import Donate from './pages/Donate';
+import ContactPage from './pages/ContactPage';
+import DonorsSponsorsPage from './pages/DonorsSponsorsPage';
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} /> {/* Home page */}
           <Route path="/about" element={<About />} /> {/* Home page */}
+          <Route path="/programs" element={<Programs />} /> {/* Home page */}
+          <Route path="/donate" element={<Donate />} /> {/* Home page */}
+          <Route path="/contact" element={<ContactPage />} /> {/* Home page */}
+          <Route path="/donors" element={<DonorsSponsorsPage />} /> {/* Home page */}
         </Routes>
         <Footer/>
       </div>

@@ -1,0 +1,82 @@
+.donors-sponsors {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .heading-section {
+    text-align: center;
+  }
+  
+  .sponsors-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch; /* Ensures equal height */
+  }
+  
+  .sponsor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%; /* Ensures all cards are the same height */
+  }
+  
+  .sponsor-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sponsor-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: contain;
+    min-height: 180px;
+    max-height: 180px;
+  }
+  
+  .sponsor-name {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  @media screen and (max-width:992px) {
+    .sponsors-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .sponsor-image {
+        min-height: 140px;
+        max-height: 140px;
+      }
+    
+  }
+  @media screen and (max-width:768px) {
+    .sponsors-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .sponsor-image {
+        min-height: 120px;
+        max-height: 120px;
+      }
+    
+  }
+  @media screen and (max-width:520px) {
+    .sponsors-grid {
+        grid-template-columns: 1fr ;
+      }
+      .sponsor-image {
+        min-height: 120px;
+        max-height: 120px;
+      }
+    
+  }

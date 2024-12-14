@@ -2,6 +2,7 @@
     padding: 60px 0;
     background-color: #fff;
     text-align: center;
+    overflow: hidden;
 }
 .section-header {
     margin-bottom: 40px;
@@ -16,11 +17,17 @@
     min-height: 140px;
     margin: auto;
     object-fit: contain;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     transition: filter 0.3s ease-in-out;
 }
 .sponsor-logo:hover {
     filter: grayscale(0%);
+}
+.donors-sponsors-section .slick-slide.slick-active.slick-current .sponsor-logo  {
+    filter: grayscale(0%);
+}
+.donors-sponsors-section .slick-slider {
+    overflow: hidden;
 }
 .donors-sponsors-section .slick-slide {
     padding: 10px;
@@ -40,6 +47,5 @@
 @media screen and (max-width:768px) {
     .donors-sponsors-section {
         padding: 40px 0;
-        overflow: hidden;
     }
 }

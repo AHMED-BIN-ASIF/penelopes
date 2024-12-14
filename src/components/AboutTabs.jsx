@@ -14,10 +14,10 @@ const AboutTabs = () => {
         const nextIndex = (currentIndex + 1) % tabs.length;
         return tabs[nextIndex];
       });
-    }, 6000); // Change tab every 4 seconds
+    }, 6500); // Change tab every 6 seconds
 
     return () => clearInterval(interval);
-  }, );
+  },); // Add tabs to the dependency array
 
   const handleTabClick = (tab) => {
     setActiveTab(tab); // Manually change active tab
@@ -30,17 +30,13 @@ const AboutTabs = () => {
         <div className="tab-header-wrapper">
           <div className="tab-headers">
             <button
-              className={`tab-button ${
-                activeTab === "overview" ? "active" : ""
-              }`}
+              className={`tab-button ${activeTab === "overview" ? "active" : ""}`}
               onClick={() => handleTabClick("overview")}
             >
               <span>About Us</span>
             </button>
             <button
-              className={`tab-button ${
-                activeTab === "mission" ? "active" : ""
-              }`}
+              className={`tab-button ${activeTab === "mission" ? "active" : ""}`}
               onClick={() => handleTabClick("mission")}
             >
               <span>Our Mission</span>
@@ -63,6 +59,12 @@ const AboutTabs = () => {
 
       {/* Tab Content */}
       <div className="tab-content">
+        <button
+          className={`tab-button mb-btn ${activeTab === "overview" ? "active" : ""}`}
+          onClick={() => handleTabClick("overview")}
+        >
+          <span>About Us</span>
+        </button>
         {activeTab === "overview" && (
           <div className="tab-pane">
             <CtaSection
@@ -78,6 +80,12 @@ const AboutTabs = () => {
             />
           </div>
         )}
+        <button
+          className={`tab-button mb-btn ${activeTab === "mission" ? "active" : ""}`}
+          onClick={() => handleTabClick("mission")}
+        >
+          <span>Our Mission</span>
+        </button>
         {activeTab === "mission" && (
           <div className="tab-pane">
             <CtaSection
@@ -86,15 +94,21 @@ const AboutTabs = () => {
               ctaParagraph2="Our mission is to ensure every child with leukemia has access to the care they deserve. By offering financial aid, raising awareness, and advocating for better healthcare systems, we aim to create a brighter, healthier future for these children."
               ctaButtonText="Discover Our Goals"
               ctaButtonUrl="/mission"
-              btnClass="pimary-btn"
+              btnClass="primary-btn"
               ctaImg1={EventImg}
               altText1="Children smiling in a park"
               altText2="Caregivers and volunteers with children"
             />
           </div>
         )}
+        <button
+          className={`tab-button mb-btn ${activeTab === "impact" ? "active" : ""}`}
+          onClick={() => handleTabClick("impact")}
+        >
+          <span>Our Impact</span>
+        </button>
         {activeTab === "impact" && (
-          <div className=" tab-pane">
+          <div className="tab-pane">
             <CtaSection
               ctaDirection="light reverse"
               ctaHeading="Our Impact"
@@ -108,6 +122,12 @@ const AboutTabs = () => {
             />
           </div>
         )}
+        <button
+          className={`tab-button mb-btn ${activeTab === "vision" ? "active" : ""}`}
+          onClick={() => handleTabClick("vision")}
+        >
+          <span>Vision & Values</span>
+        </button>
         {activeTab === "vision" && (
           <div className="tab-pane">
             <CtaSection

@@ -6,6 +6,7 @@ import DonorsSponsors from "../components/DonorsSponsors";
 import TestimonialsSection from "../components/TestimonialsSection";
 import AboutTabs from "../components/AboutTabs";
 import TeamSection from "../components/TeamSection";
+import GallerySection from "../components/GallerySection";
 
 const About = () => {
   return (
@@ -22,6 +23,7 @@ const About = () => {
       <TeamSection />
       <DonorsSponsors />
       <TestimonialsSection />
+      <GallerySection />
       <NewsletterSection />
     </>
   );

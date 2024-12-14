@@ -83,6 +83,16 @@ h1 {
   font-weight: 700;
   color: #AE1F24;
 }
+.secondry-heading.white {
+  color: #fff;
+}
+.secondry-heading {
+  font-family: "Roboto Slab", serif;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #AE1F24;
+}
 .primary-btn, .secondry-btn {
   font-family: "Blinker", sans-serif;
   font-weight: 500;
@@ -120,6 +130,9 @@ h1 {
   margin: 25px 0;
   color: #333;
   line-height: 1.5;
+}
+.default-text.white {
+  color: #fff;
 }
 .input-field {
   border: 1px solid #333;
@@ -189,9 +202,26 @@ textarea {
  cursor: pointer;
  display: block;
 }
+.simple-hero.dark {
+  background: #000;
+}
+.simple-hero {
+  background: linear-gradient(120deg, #f05b29 0%, #000 20%, #000 80%, #AE1F24 100% ) !important;
+  color: white;
+  text-align: center;
+  padding: 150px 0 50px;
+}
+.simple-hero.dark h1 {
+  color: #f05b29;
+}
+.simple-hero.dark p {
+  color: #fff;
+  max-width: 780px ;
+  margin-inline: auto;
+}
 @media screen  and (max-width:1280px) {
   h1 {
-    font-size: 44px;
+    font-size: 44px !important;
   }
   .secondry-heading {
     font-size: 38px;
@@ -218,7 +248,7 @@ textarea {
 }
 @media screen  and (max-width:768px) {
   h1 {
-    font-size: 32px;
+    font-size: 32px !important;
 }
   .dots-wrapper {
     display: none;
@@ -230,4 +260,7 @@ textarea {
     font-size: 18px;
   }
 
+  .simple-hero {
+    padding: 130px 0 50px;
+}
 }

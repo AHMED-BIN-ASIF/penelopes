@@ -172,31 +172,31 @@ const Header = () => {
                   <div className="dropdown-body">
                     <div className="container">
                       <div className="dd-inner dd-programs">
-                        <Link to="/" className="dd-link head">
+                        <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program1} alt="program" />
                           </div>
                           <span>Community Engagement & Awareness</span>
                         </Link>
-                        <Link to="/" className="dd-link head">
+                        <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program2} alt="program" />
                           </div>
                           <span>Fundraising Initiatives</span>
                         </Link>
-                        <Link to="/" className="dd-link head">
+                        <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program3} alt="program" />
                           </div>
                           <span>Family Support Services</span>
                         </Link>
-                        <Link to="/" className="dd-link head">
+                        <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program4} alt="program" />
                           </div>
                           <span>Advocacy for Research & Impact</span>
                         </Link>
-                        <Link to="/" className="dd-link head">
+                        <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program4} alt="program" />
                           </div>
@@ -204,7 +204,7 @@ const Header = () => {
                         </Link>
                       </div>
                       <div className="dd-btn-grp dd-program">
-                        <Link to="/" className="secondry-btn">
+                        <Link to="/programs" className="secondry-btn">
                           View All Programs
                         </Link>
                       </div>
@@ -215,12 +215,12 @@ const Header = () => {
               {/* Additional Links */}
               <li>
                 <Link to="/blogs" className="nav-link-item">
-                  Blogs
+                  Events
                 </Link>
               </li>
               <li>
-                <Link to="/faqs" className="nav-link-item">
-                  FAQs
+                <Link to="/donors" className="nav-link-item">
+                  Donors
                 </Link>
               </li>
               <li>
@@ -232,7 +232,7 @@ const Header = () => {
           </nav>
           {/* Get Started Button */}
           <div className="btn-wrapper dmb">
-            <Link to="/configure" className="primary-btn">
+            <Link to="/donate" className="primary-btn">
               Donate Now
             </Link>
           </div>

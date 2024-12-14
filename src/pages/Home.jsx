@@ -7,12 +7,13 @@ import HeroImg2 from "../assets/images/hero.avif";
 import HeroImg3 from "../assets/images/hero.jpg";
 import CtaImg1 from "../assets/images/hero.jpg";
 import EventImg from "../assets/images/event-img.jpg";
-import Programs from "../components/Programs";
+import ProgramsSection from "../components/ProgramsSection";
 import NewsletterSection from "../components/NewsletterSection";
 import DonorsSponsors from "../components/DonorsSponsors";
 import TestimonialsSection from "../components/TestimonialsSection";
 import BlogsEvents from "../components/BlogsEvents";
 import DonateSection from "../components/DonateSection";
+import GallerySection from "../components/GallerySection";
 
 const Home = () => {
   const Heroslides = [
@@ -83,10 +84,9 @@ const Home = () => {
         ctaButtonUrl="/custombuild"
         btnClass="primary-btn"
         ctaImg1={CtaImg1}
-        altText1="JNX Story Front Image"
-        altText2="JNX Story Back Image"
+        altText1="Front Image"
       />
-      <Programs/>
+      <ProgramsSection/>
 
       <CtaSection
         ctaDirection=""
@@ -97,13 +97,13 @@ const Home = () => {
         ctaButtonUrl="/custombuild"
         btnClass="secondry-btn"
         ctaImg1={EventImg}
-        altText1="JNX Story Front Image"
-        altText2="JNX Story Back Image"
+        altText1="Front Image"
       />
       <DonorsSponsors/>
       <DonateSection/>
       <BlogsEvents/>
       <TestimonialsSection/>
+      <GallerySection />
       <NewsletterSection />
     </>
   );
