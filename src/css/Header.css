@@ -27,7 +27,7 @@
     display: none;
 }
 nav {
-    max-width: 530px;
+    max-width: 560px;
     width: 100%;
 }
 nav ul {
@@ -151,7 +151,7 @@ nav ul {
         font-size: 22px;
     }
     nav {
-        max-width: 500px;
+        max-width: 520px;
     }
     .dd-inner.dd-programs {
         gap: 30px;
@@ -168,6 +168,9 @@ nav ul {
     }
     .dd-col-content {
         gap: 15px;
+    }
+    .nav-dropdown-trigger {
+        padding: 40px 8px;
     }
 }
 @media screen and (max-width: 992px) {

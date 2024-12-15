@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../css/AboutTabs.css"; // Optional: Add CSS for styling
 import CtaSection from "./CtaSection";
 import EventImg from "../assets/images/event-img.jpg";
+import ProgramImage from "../assets/images/cancer.jpg";
 
 const AboutTabs = () => {
   const [activeTab, setActiveTab] = useState("overview");
@@ -95,7 +96,7 @@ const AboutTabs = () => {
               ctaButtonText="Discover Our Goals"
               ctaButtonUrl="/mission"
               btnClass="primary-btn"
-              ctaImg1={EventImg}
+              ctaImg1={ProgramImage}
               altText1="Children smiling in a park"
               altText2="Caregivers and volunteers with children"
             />

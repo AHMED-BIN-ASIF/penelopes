@@ -3,6 +3,7 @@ import "../css/TeamSection.css";
 import Member1 from "../assets/images/hero.avif"; // Replace with team member images
 import Member2 from "../assets/images/hero.jpg";
 import Member3 from "../assets/images/hero.jpg";
+import Team from "../assets/images/team.webp";
 
 const TeamSection = () => {
   const teamMembers = [
@@ -34,7 +35,7 @@ const TeamSection = () => {
       id: 5,
       name: "Our Team",
       role: "Volunteer Team",
-      image: Member1,
+      image: Team,
     },
   ];
 

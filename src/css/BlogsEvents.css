@@ -24,11 +24,6 @@
     text-decoration: none;
     transition: transform 0.3s;
 }
-
-.blog-event-card:hover {
-    transform: translateY(-5px);
-}
-
 .blog-event-img-wrapper {
     border-radius: 8px;
     overflow: hidden;

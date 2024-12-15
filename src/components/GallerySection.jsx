@@ -4,13 +4,13 @@ import { FaTimes, FaChevronLeft, FaChevronRight, FaBullseye } from "react-icons/
 
 // Import images
 import EventImage1 from "../assets/images/event-img.jpg";
-import EventImage2 from "../assets/images/event-img.jpg";
-import EventImage3 from "../assets/images/event-img.jpg";
-import EventImage4 from "../assets/images/event-img.jpg";
-import EventImage5 from "../assets/images/event-img.jpg";
-import EventImage6 from "../assets/images/event-img.jpg";
-import EventImage7 from "../assets/images/event-img.jpg";
-import EventImage8 from "../assets/images/event-img.jpg";
+import EventImage2 from "../assets/images/about-img.webp";
+import EventImage3 from "../assets/images/cancer.jpg";
+import EventImage4 from "../assets/images/carwash.jpg";
+import EventImage5 from "../assets/images/event-img-3.webp";
+import EventImage6 from "../assets/images/child.jpg";
+import EventImage7 from "../assets/images/program-img.jpg";
+import EventImage8 from "../assets/images/about-img.webp";
 
 const images = [
   { id: 1, src: EventImage1, alt: "Event 1" },

@@ -3,13 +3,13 @@ import "../css/Header.css";
 import { Link } from "react-router-dom";
 import ImageSlider from "../ui/ImageSlider";
 import Brand from "../assets/images/brand.PNG";
-import About1 from "../assets/images/hero.avif";
-import About2 from "../assets/images/hero.jpg";
-import About3 from "../assets/images/hero.avif";
-import Program1 from "../assets/images/event-img.jpg";
-import Program2 from "../assets/images/support-img.webp";
-import Program3 from "../assets/images/hero.jpg";
-import Program4 from "../assets/images/hero.avif";
+import About1 from "../assets/images/about-img.webp";
+import About2 from "../assets/images/carwash.jpg";
+import About3 from "../assets/images//program-img.jpg";
+import Program1 from "../assets/images/awareness.jpg";
+import Program2 from "../assets/images/fundraising.jpg";
+import Program3 from "../assets/images/family-support.jpg";
+import Program4 from "../assets/images/research.jpg";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -214,18 +214,18 @@ const Header = () => {
               </li>
               {/* Additional Links */}
               <li>
-                <Link to="/blogs" className="nav-link-item">
-                  Events
+                <Link to="/events" className="nav-dropdown-trigger ">
+                  <span className="nav-link-item">Events</span>
                 </Link>
               </li>
               <li>
-                <Link to="/donors" className="nav-link-item">
-                  Donors
+                <Link to="/donors" className="nav-dropdown-trigger">
+                  <span className="nav-link-item">Donors</span>
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="nav-link-item">
-                  Contact
+                <Link to="/contact" className="nav-dropdown-trigger">
+                  <span className="nav-link-item">Contact</span>
                 </Link>
               </li>
             </ul>

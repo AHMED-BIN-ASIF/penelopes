@@ -1,8 +1,10 @@
 import React from "react";
 import "../css/BlogsEvents.css"; // Custom styling for blogs and events
 import { Link } from "react-router-dom";
-import Blog1 from "../assets/images/support-img.webp";
-import Blog2 from "../assets/images/event-img.jpg";
+import Blog1 from "../assets/images/blog-1.webp";
+import Blog2 from "../assets/images/comming-event.png";
+import Blog3 from "../assets/images/program-img.jpg";
+import Blog4 from "../assets/images/event-img-3.webp";
 
 const BlogsEvents = () => {
   // Blogs and events data for dynamic rendering
@@ -29,7 +31,7 @@ const BlogsEvents = () => {
       title: "Stories of Courage and Strength",
       description:
         "Read heartwarming stories from families supported by our foundation.",
-      image: Blog1,
+      image: Blog3,
       link: "/blogs/stories-of-courage",
       date: "February 25, 2024",
       type: "Blog",
@@ -38,7 +40,7 @@ const BlogsEvents = () => {
       title: "Awareness Campaign: Make a Difference",
       description:
         "Learn how you can contribute to spreading awareness and inspiring change.",
-      image: Blog2,
+      image: Blog4,
       link: "/events/make-a-difference",
       date: "May 10, 2024",
       type: "Blog",

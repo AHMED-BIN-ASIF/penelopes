@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.79b99660.css",
-    "main.js": "/static/js/main.672e895d.js",
+    "main.css": "/static/css/main.b56863d2.css",
+    "main.js": "/static/js/main.72149fef.js",
     "static/js/453.3b153743.chunk.js": "/static/js/453.3b153743.chunk.js",
     "static/media/event-img.jpg": "/static/media/event-img.daeb013db865e78afbf9.jpg",
+    "static/media/carwash.jpg": "/static/media/carwash.9139a9c02f3d97864f63.jpg",
+    "static/media/cancer.jpg": "/static/media/cancer.3bfe2bf4b8664dd7c355.jpg",
+    "static/media/child.jpg": "/static/media/child.e56808825d44262d310c.jpg",
+    "static/media/program-img.jpg": "/static/media/program-img.f49ce53c945759561f76.jpg",
+    "static/media/about-img.webp": "/static/media/about-img.a7c6d68cac05159b9481.webp",
+    "static/media/event-banner.webp": "/static/media/event-banner.e06b30f6d6b73c3d03c8.webp",
+    "static/media/event-img-3.webp": "/static/media/event-img-3.4749e91d3494e654264e.webp",
     "static/media/tidyupauto.PNG": "/static/media/tidyupauto.e31d0395d1449d8d5bf1.PNG",
+    "static/media/comming-event.png": "/static/media/comming-event.d9047e30e0438d54f1d2.png",
+    "static/media/event-pic.jpg": "/static/media/event-pic.72ca28304b76e3ac9ed9.jpg",
+    "static/media/blog-1.webp": "/static/media/blog-1.bcf14f3cec04e2b17f5e.webp",
+    "static/media/bolg-img.png": "/static/media/bolg-img.add821aca4fc1aae5c56.png",
     "static/media/hero.avif": "/static/media/hero.82ba85b182477937a773.avif",
     "static/media/cabaret4a.png": "/static/media/cabaret4a.4396e8b2c1aa0c3acf9f.png",
     "static/media/brand.PNG": "/static/media/brand.1b93d488f3fdc5ee7b15.PNG",
+    "static/media/team.webp": "/static/media/team.876f5551d2044afae8a0.webp",
     "static/media/hero.jpg": "/static/media/hero.61396dd4a33f3a1d7fe1.jpg",
     "static/media/support-img.webp": "/static/media/support-img.62edba70e01a35fedf48.webp",
     "static/media/nutley2.png": "/static/media/nutley2.563537563da1cd487289.png",
@@ -32,12 +44,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.79b99660.css.map": "/static/css/main.79b99660.css.map",
-    "main.672e895d.js.map": "/static/js/main.672e895d.js.map",
+    "main.b56863d2.css.map": "/static/css/main.b56863d2.css.map",
+    "main.72149fef.js.map": "/static/js/main.72149fef.js.map",
     "453.3b153743.chunk.js.map": "/static/js/453.3b153743.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79b99660.css",
-    "static/js/main.672e895d.js"
+    "static/css/main.b56863d2.css",
+    "static/js/main.72149fef.js"
   ]
 }

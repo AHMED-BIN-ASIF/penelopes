@@ -10,7 +10,7 @@ const Hero = ({id,  title, subHeading, detail, linkText, linkHref, className, im
       }}
     >
       <div className="container">
-        <div className="banner-left">
+        <div className="banner-left" data-aos="fade-right">
           <h1>{title}</h1>
           <span className="sub-heading">{subHeading}</span>
           <p className="banner-detail">{detail}</p>

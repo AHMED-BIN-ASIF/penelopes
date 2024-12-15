@@ -28,6 +28,19 @@ import tidyupAuto from "../images/tidyupauto.PNG";
 import bungalow from "../images/bungalow.png";
 import westMilford from "../images/west-milford.jpg";
 import womansClub from "../images/womans-club.png";
+// Blogss Import starts here 
+import blogImg1 from "../images/blog-1.webp";
+import blogImg2 from "../images/bolg-img.png";
+import blogImg3 from "../images/program-img.jpg";
+// eventimages import 
+import pastEvent1 from "../images/cancer.jpg";
+import pastEvent2 from "../images/event-img.jpg";
+import pastEvent3 from "../images/event-img-3.webp";
+// comming events imports 
+import CommingEvent1 from "../images/event-banner.webp";
+import CommingEvent2 from "../images/event-pic.jpg";
+import CommingEvent3 from "../images/carwash.jpg";
+
 
 // Sponsors data array
 export const sponsorsData = [
@@ -61,4 +74,104 @@ export const sponsorsData = [
   { image: bungalow, name: "Bungalow Restaurant", altText: "Bungalow" },
   { image: westMilford, name: "West Milford Rotary Club", altText: "West Milford" },
   { image: womansClub, name: "Nutley Woman's Club", altText: "Woman's Club" },
+];
+// Events data 
+export const eventsData = [
+  {
+    id: 1,
+    title: "Annual Leukemia Walkathon",
+    date: "March 25, 2024",
+    location: "Central Park, NYC",
+    description:
+      "Join us for a walkathon to raise funds and awareness for childhood leukemia. Be a part of our mission to save lives!",
+    buttonUrl: "/",
+    buttonText: "Register Now",
+    img: CommingEvent1,
+  },
+  {
+    id: 2,
+    title: "Penelope's Car Wash for a Cause",
+    date: "April 15, 2024", // Adjust the date if needed
+    location: "Main Street Parking Lot, Los Angeles",
+    description:
+    "$20 includes a car wash, free snacks, drinks, and 5 minutes in a bouncy castle. All proceeds support Penelope's fight against leukemia.",
+    buttonUrl: "/donate-now",
+    buttonText: "Donate & Join",
+    img: CommingEvent2, // Replace with the correct image path
+  },
+  
+  {
+    id: 3,
+    title: "Charity Gala Night",
+    date: "April 15, 2024",
+    location: "The Grand Hall, Los Angeles",
+    description:
+      "A night to remember with dinner, entertainment, and charity auctions. All proceeds go to supporting leukemia patients.",
+    buttonUrl: "/",
+    buttonText: "Buy Tickets",
+    img: CommingEvent3,
+  },
+];
+
+export const pastEventsData = [
+  {
+    id: 1,
+    title: "2023 Awareness Run",
+    date: "October 10, 2023",
+    location: "Boston, MA",
+    description:
+      "Hundreds came together to raise awareness and funds for leukemia research. Thank you to everyone who participated!",
+    img: pastEvent1,
+  },
+  {
+    id: 2,
+    title: "2023 Charity Auction",
+    date: "December 15, 2023",
+    location: "San Francisco, CA",
+    description:
+      "An evening of philanthropy and fun. Over $50,000 was raised for leukemia support programs.",
+    img: pastEvent2,
+  },
+  {
+    id: 3,
+    title: "2023 Charity Auction",
+    date: "December 15, 2023",
+    location: "San Francisco, CA",
+    description:
+      "An evening of philanthropy and fun. Over $50,000 was raised for leukemia support programs.",
+    img: pastEvent3,
+  },
+];
+
+export const blogsData = [
+  {
+    id: 1,
+    title: "10 Ways to Support Cancer Patients",
+    date: "January 5, 2024",
+    description:
+      "Learn practical ways to support cancer patients and their families during challenging times.",
+    buttonUrl: "/blog/10-ways-to-support",
+    buttonText: "Read More",
+    img: blogImg1,
+  },
+  {
+    id: 2,
+    title: "The Impact of Fundraising Events",
+    date: "February 10, 2024",
+    description:
+      "Discover how your participation in our events makes a lasting impact on leukemia research and patient care.",
+    buttonUrl: "/blog/impact-of-fundraising",
+    buttonText: "Learn More",
+    img: blogImg2,
+  },
+  {
+    id: 3,
+    title: "The Impact of Fundraising Events",
+    date: "February 10, 2024",
+    description:
+      "Discover how your participation in our events makes a lasting impact on leukemia research and patient care.",
+    buttonUrl: "/blog/impact-of-fundraising",
+    buttonText: "Learn More",
+    img: blogImg3,
+  },
 ];

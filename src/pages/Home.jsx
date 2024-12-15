@@ -5,7 +5,7 @@ import CtaSection from "../components/CtaSection";
 import HeroImg1 from "../assets/images/hero.jpg";
 import HeroImg2 from "../assets/images/hero.avif";
 import HeroImg3 from "../assets/images/hero.jpg";
-import CtaImg1 from "../assets/images/hero.jpg";
+import CtaImg1 from "../assets/images/about-img.webp";
 import EventImg from "../assets/images/event-img.jpg";
 import ProgramsSection from "../components/ProgramsSection";
 import NewsletterSection from "../components/NewsletterSection";

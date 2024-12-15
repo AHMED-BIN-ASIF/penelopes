@@ -51,9 +51,6 @@
   background: #161A56;
 }
 
-.testimonial-card:hover {
-  transform: translateY(-5px);
-}
 
 .testimonial-quote-icon {
   font-size: 1.5rem;

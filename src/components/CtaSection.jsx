@@ -10,26 +10,28 @@ const CtaSection = ({
   ctaButtonText,
   ctaButtonUrl,
   ctaImg1,
-  ctaImg2,
   altText1 = "Front Image",
-  altText2 = "Back Image",
-  btnClass="primary-btn"
+  btnClass = "primary-btn"
 }) => {
+  // Determine AOS animations based on ctaDirection
+  const isReverse = ctaDirection.includes("reverse");
+  const imgAos = isReverse ? "fade-left" : "fade-right";
+  const contentAos = isReverse ? "fade-right" : "fade-left";
+
   return (
     <section className={`cta-section ${ctaDirection}`}>
       <div className="container">
         <div className="cta-inner">
-          <div className="cta-col-img">
+          <div className="cta-col-img" data-aos={imgAos} data-aos-duration="800">
             <div className="cta-img-wrapper img-front">
               <img src={ctaImg1} alt={altText1} />
             </div>
           </div>
-          <div className="cta-col-content">
+          <div className="cta-col-content" data-aos={contentAos} data-aos-duration="1200">
             <h2 className="secondry-heading">{ctaHeading}</h2>
             <p className="default-text">{ctaParagraph}</p>
-            {ctaParagraph2.length > 0 && (
-            <p className="default-text">{ctaParagraph2}</p>
-
+            {ctaParagraph2?.length > 0 && (
+              <p className="default-text">{ctaParagraph2}</p>
             )}
             {/* Conditional rendering of the list */}
             {ctaListItems.length > 0 && (

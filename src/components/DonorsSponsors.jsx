@@ -51,7 +51,7 @@ const DonorsSponsors = () => {
   return (
     <section className="donors-sponsors-section" id="donors-sponsors">
       <div className="container">
-        <div className="section-header">
+        <div className="section-header" data-aos="fade-up">
           <span className="pre-header">Our Support Network</span>
           <h2 className="secondry-heading">Honoring Our Donors & Sponsors</h2>
           <p className="default-text">
