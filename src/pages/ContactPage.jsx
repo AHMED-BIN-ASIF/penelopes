@@ -3,6 +3,7 @@ import "../css/ContactPage.css"; // Custom CSS for the Contact Page
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import NewsletterSection from "../components/NewsletterSection";
+import { Link } from "react-router-dom";
 
 const ContactPage = () => {
   const contacts = [
@@ -10,19 +11,22 @@ const ContactPage = () => {
       id: 1,
       icon: faMapMarkerAlt,
       title: "Our Location",
-      description: "1234 Foundation Road, Hope City, Country 56789",
+      description: "34 May St, Belleville NJ 07109",
+      link: "https://maps.app.goo.gl/rEjsiAZRvdg5W2Dm6"
     },
     {
       id: 2,
       icon: faEnvelope,
       title: "Email Us",
-      description: "contact@praefoundation.org",
+      description: "praeforleukemiapresident@gmail.com",
+      link: "mailto:praeforleukemiapresident@gmail.com"
     },
     {
       id: 3,
       icon: faPhone,
       title: "Call Us",
-      description: "+1 234 567 890",
+      description: "862-763-1267",
+      link: "tel:862-763-1267"
     },
   ];
 
@@ -44,13 +48,13 @@ const ContactPage = () => {
           </div>
           <div className="contact-cards">
             {contacts.map((contact) => (
-              <div key={contact.id} className="contact-card">
+              <Link to={contact.link} key={contact.id} className="contact-card">
                 <div className="icon-wrapper">
                   <FontAwesomeIcon icon={contact.icon} className="contact-icon" />
                 </div>
                 <h4 className="contact-title">{contact.title}</h4>
                 <p className="contact-description">{contact.description}</p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -64,7 +68,7 @@ const ContactPage = () => {
           </p>
           <div className="map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345087716!2d144.95373631560846!3d-37.816279442021944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e33!2s1234%20Foundation%20Road!5e0!3m2!1sen!2s!4v1699461083473!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2316807473912!2d-74.1655485!3d40.8009024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2559f56b74a0d%3A0x6661b2dd4dfb60eb!2s34%20May%20St%2C%20Belleville%2C%20NJ%2007109!5e0!3m2!1sen!2sus!4v1734377988486!5m2!1sen!2sus"
               width="100%"
               height="400"
               style={{ border: 0 }}

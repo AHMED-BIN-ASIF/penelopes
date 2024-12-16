@@ -1,33 +1,46 @@
-import goodhealth from "../images/goodhealth.png";
-import negliaEngineering from "../images/neglia_engineering_associates_logo.jpeg";
+import chandelier from "../images/chandelierbelle.jpg";
+import chandelierFlanders from "../images/chandelierflanders.jpeg";
+import touchOfEleganceFlorist from "../images/floristt.png";
+import cabaret4aCure from "../images/cabaret4a.png";
+import thunderClapCreative from "../images/thunderclapwebheader.png";
+import womansClubBelleville from "../images/women-club.png";
+import nutleyAthleticDepartment from "../images/nutley-athletlics.png";
+import westMilfordBoosters from "../images/west-milford.jpg";
 import nutleyCrew from "../images/nutley-crew.jpg";
-import goryeb from "../images/goryeb.jpg";
-import jayfund from "../images/jayfund.png";
-import morristown from "../images/morristown.png";
-import nutley1 from "../images/nutley1.png";
-import nutley2 from "../images/nutley2.png";
+import bellevillePolice from "../images/bellpolice.jpeg";
+import stBenedictsAthletics from "../images/csbathl.png";
+import sportsParadise from "../images/sportsparadise.png";
+import ridgewoodAthletics from "../images/ridgewoodath.png";
+import passaicRiverRowing from "../images/prra.jpg";
+import eCleaning from "../images/e-cleaning.png";
+import negliaEngineering from "../images/neglia_engineering_associates_logo.jpeg";
 import nutleyRotary from "../images/nutleyrotary.png";
-import pinkyswear from "../images/pinkyswear.png";
-import ridgewood from "../images/ridgewood.png";
-import roscommon from "../images/roscommon.jpg";
-import rownj from "../images/rownj.png";
-import sarahsfight from "../images/sarahsfight.jpg";
-import salon from "../images/salon.jpeg";
-import salonmist from "../images/salonmist.png";
-import sportsparadise from "../images/sportsparadise.png";
-import sigep from "../images/sigep.png";
+import varsityClubProducts from "../images/varsityclub.png";
+import tidyUpAuto from "../images/tidyupauto.png";
+import rowNewJersey from "../images/rownj.png";
+import smartWayUnlimited from "../images/smartway.png";
+import bungalowHomeStagers from "../images/bungalow.png";
+import roscommonHouse from "../images/roscommon.jpg";
+import jayFund from "../images/jayfund.png";
+import sarahsFight from "../images/sarahsfight.jpg";
+import jmaVending from "../images/jmavendingllc.jpeg";
+import goryebHospital from "../images/goryeb.jpg";
 import triviaRevolution from "../images/trivia-rrevolution.jpg";
-import varsityclub from "../images/varsityclub.PNG";
-import bellPolice from "../images/bellpolice.jpeg";
-import cabaret4a from "../images/cabaret4a.png";
-import eCleaningLogo from "../images/e-cleaning-logo.png";
-import florists from "../images/floristt.png";
-import prra from "../images/prra.jpg";
-import thunderclapWebheader from "../images/thunderclap-webheader.PNG";
-import tidyupAuto from "../images/tidyupauto.PNG";
-import bungalow from "../images/bungalow.png";
-import westMilford from "../images/west-milford.jpg";
-import womansClub from "../images/womans-club.png";
+import salonMistris from "../images/salonmist.png";
+import goodHealthPharmacy from "../images/goodhealth.png";
+import djmc from "../images/djmc.jpeg";
+import sigmaPhiEpsilon from "../images/sigep.png";
+import nicholasWhilborgFoundation from "../images/nicholaswihlborg.jpg";
+import pinkySwearFoundation from "../images/pinkyswear.png";    
+
+
+
+
+
+// import negliaEngineering from "../images/neglia_engineering_associates_logo.jpeg";
+// import nutleyCrew from "../images/nutley-crew.jpg";
+// import nutleyRotary from "../images/nutleyrotary.png";
+// import triviaRevolution from "../images/trivia-rrevolution.jpg";
 // Blogss Import starts here 
 import blogImg1 from "../images/blog-1.webp";
 import blogImg2 from "../images/bolg-img.png";
@@ -44,37 +57,42 @@ import CommingEvent3 from "../images/carwash.jpg";
 
 // Sponsors data array
 export const sponsorsData = [
-  { image: goodhealth, name: "Good Health Pharmacy", altText: "Good Health Pharmacy" },
-  { image: negliaEngineering, name: "Neglia Engineering Associates", altText: "Neglia Engineering Associates Logo" },
+  { image: chandelier, name: "The Chandelier", altText: "The Chandelier" },
+  { image: chandelierFlanders, name: "The Chandelier at Flanders Valley", altText: "The Chandelier at Flanders Valley" },
+  { image: touchOfEleganceFlorist, name: "Touch of Elegance Florist", altText: "Touch of Elegance Florist" },
+  { image: cabaret4aCure, name: "Cabaret 4 A Cure", altText: "Cabaret 4 A Cure" },
+  { image: thunderClapCreative, name: "Thunder Clap Creative", altText: "Thunder Clap Creative" },
+  { image: womansClubBelleville, name: "Woman's Club of Belleville", altText: "Woman's Club of Belleville" },
+  { image: nutleyAthleticDepartment, name: "Nutley Athletic Department", altText: "Nutley Athletic Department" },
+  { image: westMilfordBoosters, name: "West Milford Football Boosters", altText: "West Milford Football Boosters" },
   { image: nutleyCrew, name: "Nutley Crew", altText: "Nutley Crew" },
-  { image: goryeb, name: "Goryeb Children's Hospital", altText: "Goryeb" },
-  { image: jayfund, name: "Jay Fund Foundation", altText: "Jay Fund" },
-  { image: morristown, name: "Morristown Medical Center", altText: "Morristown Medical Center" },
-  { image: nutley1, name: "Nutley High School", altText: "Nutley 1" },
-  { image: nutley2, name: "Nutley 2", altText: "Nutley 2" },
-  { image: nutleyRotary, name: "Nutley Rotary Club", altText: "Nutley Rotary" },
-  { image: pinkyswear, name: "Pinky Swear Foundation", altText: "Pinkyswear Foundation" },
-  { image: ridgewood, name: "Ridgewood Savings Bank", altText: "Ridgewood" },
-  { image: roscommon, name: "Roscommon Golf Course", altText: "Roscommon" },
-  { image: rownj, name: "Row NJ", altText: "Row NJ" },
-  { image: sarahsfight, name: "Sarah's Fight for Hope Foundation", altText: "Sarah's Fight" },
-  { image: salon, name: "Salon Bliss", altText: "Salon" },
-  { image: salonmist, name: "Salon Mist", altText: "Salon Mist" },
-  { image: sportsparadise, name: "Sports Paradise", altText: "Sports Paradise" },
-  { image: sigep, name: "Sigma Phi Epsilon Fraternity", altText: "SigEp" },
+  { image: bellevillePolice, name: "Belleville Police Department", altText: "Belleville Police Department" },
+  { image: stBenedictsAthletics, name: "St. Benedict's Prep Athletic Department", altText: "St. Benedict's Prep Athletic Department" },
+  { image: sportsParadise, name: "Sports Paradise", altText: "Sports Paradise" },
+  { image: ridgewoodAthletics, name: "Ridgewood Athletic Department", altText: "Ridgewood Athletic Department" },
+  { image: passaicRiverRowing, name: "Passaic River Rowing Association", altText: "Passaic River Rowing Association" },
+  { image: eCleaning, name: "E-Cleaning Services", altText: "E-Cleaning Services" },
+  { image: negliaEngineering, name: "Neglia Engineering Associates", altText: "Neglia Engineering Associates" },
+  { image: nutleyRotary, name: "Nutley Rotary Club", altText: "Nutley Rotary Club" },
+  { image: varsityClubProducts, name: "Varsity Club Products", altText: "Varsity Club Products" },
+  { image: tidyUpAuto, name: "Tidy Up Auto", altText: "Tidy Up Auto" },
+  { image: rowNewJersey, name: "Row New Jersey", altText: "Row New Jersey" },
+  { image: smartWayUnlimited, name: "Smart Way Unlimited", altText: "Smart Way Unlimited" },
+  { image: bungalowHomeStagers, name: "Bungalow Home Stagers", altText: "Bungalow Home Stagers" },
+  { image: roscommonHouse, name: "Michael's Roscommon House", altText: "Michael's Roscommon House" },
+  { image: jayFund, name: "Jay Fund Foundation", altText: "Jay Fund Foundation" },
+  { image: sarahsFight, name: "Sarah's Fight for Hope Foundation", altText: "Sarah's Fight for Hope Foundation" },
+  { image: jmaVending, name: "JMA Vending, LLC", altText: "JMA Vending, LLC" },
+  { image: goryebHospital, name: "Goryeb Children's Hospital", altText: "Goryeb Children's Hospital" },
   { image: triviaRevolution, name: "Trivia Revolution", altText: "Trivia Revolution" },
-  { image: varsityclub, name: "Varsity Club", altText: "Varsity Club" },
-  { image: bellPolice, name: "Bell Police Department", altText: "Bell Police" },
-  { image: cabaret4a, name: "Cabaret 4A", altText: "Cabaret 4A" },
-  { image: eCleaningLogo, name: "E-Cleaning Services", altText: "E-Cleaning Logo" },
-  { image: florists, name: "Nutley Florists", altText: "Florist" },
-  { image: prra, name: "Passaic River Rowing Association (PRRA)", altText: "PRRA" },
-  { image: thunderclapWebheader, name: "Thunderclap Productions", altText: "Thunderclap Webheader" },
-  { image: tidyupAuto, name: "Tidy Up Auto Spa", altText: "Tidy Up Auto" },
-  { image: bungalow, name: "Bungalow Restaurant", altText: "Bungalow" },
-  { image: westMilford, name: "West Milford Rotary Club", altText: "West Milford" },
-  { image: womansClub, name: "Nutley Woman's Club", altText: "Woman's Club" },
+  { image: salonMistris, name: "Salon Mistris", altText: "Salon Mistris" },
+  { image: goodHealthPharmacy, name: "Good Health Pharmacy", altText: "Good Health Pharmacy" },
+  { image: djmc, name: "DJMC", altText: "DJMC" },
+  { image: sigmaPhiEpsilon, name: "Sigma Phi Epsilon, Penn Omega Chapter", altText: "Sigma Phi Epsilon, Penn Omega Chapter" },
+  { image: nicholasWhilborgFoundation, name: "The Nicholas Whilborg Foundation", altText: "The Nicholas Whilborg Foundation" },
+  { image: pinkySwearFoundation, name: "The Pinky Swear Foundation", altText: "The Pinky Swear Foundation" },
 ];
+
 // Events data 
 export const eventsData = [
   {

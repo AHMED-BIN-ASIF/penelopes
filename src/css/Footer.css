@@ -47,6 +47,10 @@ footer .icon {
 .connect-list a, .social-list a {
     display: flex;
 }
+.connect-list a span {
+    max-width: 84%;
+    word-wrap: break-word;
+}
 .connect-list {
     max-width: 25%;
 }

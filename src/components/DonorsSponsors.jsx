@@ -8,7 +8,7 @@ const DonorsSponsors = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 4000, // Speed of the sliding animation in milliseconds
+    speed: 3000, // Speed of the sliding animation in milliseconds
     autoplay: true,
     autoplaySpeed: 0, // Continuous sliding without delay
     cssEase: "linear", // Smooth, linear sliding effect
@@ -74,7 +74,7 @@ const DonorsSponsors = () => {
         </Slider>
         <div className="btn-grp">
           <Link to="/donors" className="primary-btn">
-            Vie all Sponsors
+            View all Sponsors
           </Link>
         </div>
     </section>

@@ -14,28 +14,28 @@ const ProgramsSection = () => {
       description:
         "Building solidarity through events, campaigns, and advocacy to educate the public and bring communities together.",
       image: Program1,
-      link: "/community-engagement",
+      link: "/programs",
     },
     {
       title: "Fundraising Initiatives",
       description:
         "Generating essential funds through branded merchandise, donation campaigns, and innovative fundraising events.",
       image: Program2,
-      link: "/fundraising-initiatives",
+      link: "/programs",
     },
     {
-      title: "Family Support Services",
+      title: "Penelope's Support Squad",
       description:
         "Providing counseling, emotional support, and scholarships for survivors and their siblings to foster resilience.",
       image: Program3,
-      link: "/family-support",
+      link: "/programs",
     },
     {
-      title: "Advocacy for Research & Impact",
+      title: "PRAE for Leukemia Research",
       description:
         "Driving progress in pediatric leukemia awareness, research, and long-term treatment advocacy.",
       image: Program4,
-      link: "/advocacy-research",
+      link: "/programs",
     },
   ];
 

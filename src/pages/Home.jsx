@@ -81,7 +81,7 @@ const Home = () => {
         ctaParagraph2="Through personalized support services, emotional and therapeutic resources, and financial aid, we alleviate the burdens faced by families navigating this challenging journey. Together, we stand for resilience, compassion, and a brighter future for every child in our care."
         // ctaListItems={ctaList}
         ctaButtonText="Explore Our Mission & Vision"
-        ctaButtonUrl="/custombuild"
+        ctaButtonUrl="/about"
         btnClass="primary-btn"
         ctaImg1={CtaImg1}
         altText1="Front Image"
@@ -90,11 +90,11 @@ const Home = () => {
 
       <CtaSection
         ctaDirection=""
-        ctaHeading="Join Our Events and Fundraisers"
+        ctaHeading="Join The Fight"
         ctaParagraph2="Be part of our mission by participating in our engaging events and fundraisers. From charity walks and educational seminars to family movie nights and community drives, every event brings us closer to providing critical support for children battling leukemia. Together, we can create memories, build awareness, and raise the much-needed funds to empower families on their journey to recovery."
         // ctaListItems={ctaList}
         ctaButtonText="Donate to Support"
-        ctaButtonUrl="/custombuild"
+        ctaButtonUrl="/donate"
         btnClass="secondry-btn"
         ctaImg1={EventImg}
         altText1="Front Image"

@@ -22,16 +22,16 @@ const Footer = () => {
               <h4>Our Programs</h4>
               <ul className="footer-links">
                 <li>
-                  <Link to="/childcare-support">Childcare Support</Link>
+                  <Link to="/programs">Childcare Support</Link>
                 </li>
                 <li>
-                  <Link to="/educational-programs">Educational Programs</Link>
+                  <Link to="/programs">Educational Programs</Link>
                 </li>
                 <li>
-                  <Link to="/financial-assistance">Financial Assistance</Link>
+                  <Link to="/programs">Financial Assistance</Link>
                 </li>
                 <li>
-                  <Link to="/health-advocacy">Health Advocacy</Link>
+                  <Link to="/programs">Health Advocacy</Link>
                 </li>
               </ul>
             </div>
@@ -42,10 +42,10 @@ const Footer = () => {
                   <Link to="/about">Our Mission</Link>
                 </li>
                 <li>
-                  <Link to="/team">Our Team</Link>
+                  <Link to="/about#team">Our Team</Link>
                 </li>
                 <li>
-                  <Link to="/faqs">FAQs</Link>
+                  <Link to="/about#faq">FAQs</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>
@@ -85,22 +85,22 @@ const Footer = () => {
               <h4>Connect With Us</h4>
               <ul className="footer-links">
                 <li>
-                  <a href="tel:+123456789">
+                  <Link to="tel:+18627631267">
                     <FaPhone className="icon" />
-                    <span>+0123456789</span>
-                  </a>
+                    <span>862-763-1267</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="mailto:contact@prae.org">
+                  <Link to="mailto:praeforleukemiapresident@gmail.com">
                     <FaEnvelope className="icon" />
-                    <span>contact@prae.org</span>
-                  </a>
+                    <span>praeforleukemiapresident@gmail.com</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/">
+                  <Link to="https://maps.app.goo.gl/rEjsiAZRvdg5W2Dm6">
                     <FaMapMarkerAlt className="icon" />
-                    <span>1234 Hope Lane, Suite 101</span>
-                  </a>
+                    <span>34 May St, Belleville NJ 07109</span>
+                  </Link>
                 </li>
               </ul>
             </div>

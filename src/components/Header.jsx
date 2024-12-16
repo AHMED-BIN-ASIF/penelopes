@@ -50,7 +50,7 @@ const Header = () => {
               {/* About Us Dropdown */}
               <li>
                 <div className="nav-dropdown">
-                  <Link to="" className="nav-dropdown-trigger">
+                  <Link to="/about" className="nav-dropdown-trigger">
                     <span className="nav-link-item">About Us</span>
                   </Link>
                   <div className="dropdown-body">
@@ -65,22 +65,22 @@ const Header = () => {
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/about/mission" className="dd-link">
+                                <Link to="/about#mission" className="dd-link">
                                   Our Mission
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/about/team" className="dd-link">
+                                <Link to="/about#team" className="dd-link">
                                   Our Team
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/about/impact" className="dd-link">
+                                <Link to="/about#impact" className="dd-link">
                                   Our Impact
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/about/values" className="dd-link">
+                                <Link to="/about#values" className="dd-link">
                                   Vision & Values
                                 </Link>
                               </li>
@@ -93,20 +93,20 @@ const Header = () => {
                               </li>
                               <li>
                                 <Link
-                                  to="/contact/locations"
+                                  to="/contact#locations"
                                   className="dd-link"
                                 >
                                   Our Locations
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/contact/support" className="dd-link">
+                                <Link to="/contact#support" className="dd-link">
                                   Support Center
                                 </Link>
                               </li>
                               <li>
                                 <Link
-                                  to="/contact/feedback"
+                                  to="/contact#feedback"
                                   className="dd-link"
                                 >
                                   Give Feedback
@@ -114,7 +114,7 @@ const Header = () => {
                               </li>
                               <li>
                                 <Link
-                                  to="/contact/feedback"
+                                  to="/contact#feedback"
                                   className="dd-link"
                                 >
                                   Give Feedback
@@ -123,27 +123,27 @@ const Header = () => {
                             </ul>
                             <ul>
                               <li>
-                                <Link to="/faqs" className="dd-link head">
+                                <Link to="/" className="dd-link head">
                                   FAQs
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/faqs/general" className="dd-link">
+                                <Link to="/" className="dd-link">
                                   General Questions
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/faqs/support" className="dd-link">
+                                <Link to="/" className="dd-link">
                                   Support Questions
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/faqs/donations" className="dd-link">
+                                <Link to="/" className="dd-link">
                                   Donation Questions
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/faqs/donations" className="dd-link">
+                                <Link to="/" className="dd-link">
                                   Donation Questions
                                 </Link>
                               </li>
@@ -166,7 +166,7 @@ const Header = () => {
               {/* Our Programs Dropdown */}
               <li>
                 <div className="nav-dropdown">
-                  <Link to="" className="nav-dropdown-trigger">
+                  <Link to="/programs" className="nav-dropdown-trigger">
                     <span className="nav-link-item">Our Programs</span>
                   </Link>
                   <div className="dropdown-body">
@@ -188,19 +188,19 @@ const Header = () => {
                           <div className="dd-img-wrapper">
                             <img src={Program3} alt="program" />
                           </div>
-                          <span>Family Support Services</span>
+                          <span>Penelope's Support Squad</span>
                         </Link>
                         <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program4} alt="program" />
                           </div>
-                          <span>Advocacy for Research & Impact</span>
+                          <span>PRAE for Leukemia Research</span>
                         </Link>
                         <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
                             <img src={Program4} alt="program" />
                           </div>
-                          <span>Advocacy for Research & Impact</span>
+                          <span>Scholarships and Grants</span>
                         </Link>
                       </div>
                       <div className="dd-btn-grp dd-program">
