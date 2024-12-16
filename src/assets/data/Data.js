@@ -33,14 +33,6 @@ import sigmaPhiEpsilon from "../images/sigep.png";
 import nicholasWhilborgFoundation from "../images/nicholaswihlborg.jpg";
 import pinkySwearFoundation from "../images/pinkyswear.png";    
 
-
-
-
-
-// import negliaEngineering from "../images/neglia_engineering_associates_logo.jpeg";
-// import nutleyCrew from "../images/nutley-crew.jpg";
-// import nutleyRotary from "../images/nutleyrotary.png";
-// import triviaRevolution from "../images/trivia-rrevolution.jpg";
 // Blogss Import starts here 
 import blogImg1 from "../images/blog-1.webp";
 import blogImg2 from "../images/bolg-img.png";

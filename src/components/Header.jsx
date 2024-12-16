@@ -18,22 +18,6 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
   const AboutImages = [About1, About2, About3];
-  // const AboutMenuItems = [
-  //   { label: 'Our Mission', link: '/about#mission' },
-  //   { label: 'Our Team', link: '/about#team' },
-  //   { label: 'Our Impact', link: '/about#impact' },
-  //   { label: 'Vision & Values', link: '/about#vision' }
-  // ];
-
-  // const programMenuItems = [
-  //   { label: "Services", link: "/services" },
-  //   { label: "Events", link: "/events" },
-  //   { label: "Volunteer Opportunities", link: "/volunteer" },
-  //   { label: "Donate", link: "/donate" },
-  //   { label: "Awareness Campaigns", link: "/awareness-campaigns" },
-  //   { label: "Partnerships", link: "/partnerships" },
-  // ];
-
   return (
     <header className="header">
       <div className="header-inner">

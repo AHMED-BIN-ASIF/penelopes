@@ -87,7 +87,6 @@ const Home = () => {
         altText1="Front Image"
       />
       <ProgramsSection/>
-
       <CtaSection
         ctaDirection=""
         ctaHeading="Join The Fight"
