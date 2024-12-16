@@ -91,7 +91,6 @@ const Home = () => {
         ctaDirection=""
         ctaHeading="Join The Fight"
         ctaParagraph2="Be part of our mission by participating in our engaging events and fundraisers. From charity walks and educational seminars to family movie nights and community drives, every event brings us closer to providing critical support for children battling leukemia. Together, we can create memories, build awareness, and raise the much-needed funds to empower families on their journey to recovery."
-        // ctaListItems={ctaList}
         ctaButtonText="Donate to Support"
         ctaButtonUrl="/donate"
         btnClass="secondry-btn"
