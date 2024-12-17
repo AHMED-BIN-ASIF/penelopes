@@ -16,7 +16,7 @@ import eCleaning from "../images/e-cleaning.png";
 import negliaEngineering from "../images/neglia_engineering_associates_logo.jpeg";
 import nutleyRotary from "../images/nutleyrotary.png";
 import varsityClubProducts from "../images/varsityclub.png";
-import tidyUpAuto from "../images/tidyupauto.png";
+import tidyUpAuto from "../images/tid-yup-auto.png";
 import rowNewJersey from "../images/rownj.png";
 import smartWayUnlimited from "../images/smartway.png";
 import bungalowHomeStagers from "../images/bungalow.png";
