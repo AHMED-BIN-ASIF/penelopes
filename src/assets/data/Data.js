@@ -15,7 +15,7 @@ import passaicRiverRowing from "../images/prra.jpg";
 import eCleaning from "../images/e-cleaning.png";
 import negliaEngineering from "../images/neglia_engineering_associates_logo.jpeg";
 import nutleyRotary from "../images/nutleyrotary.png";
-import varsityClubProducts from "../images/varsityclub.png";
+import varsityClubProducts from "../images/varsity-club.png";
 import tidyUpAuto from "../images/tid-yup-auto.png";
 import rowNewJersey from "../images/rownj.png";
 import smartWayUnlimited from "../images/smartway.png";
