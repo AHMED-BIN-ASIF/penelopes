@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import "../css/Header.css";
 import { Link } from "react-router-dom";
 import ImageSlider from "../ui/ImageSlider";
-import Brand from "../assets/images/brand.PNG";
+import Brand from "../assets/images/logoHome.png";
 import About1 from "../assets/images/about-img.webp";
 import About2 from "../assets/images/carwash.jpg";
 import About3 from "../assets/images//program-img.jpg";
-import Program1 from "../assets/images/awareness.jpg";
-import Program2 from "../assets/images/fundraising.jpg";
-import Program3 from "../assets/images/family-support.jpg";
+import Program1 from "../assets/images/community.jpg";
+import Program2 from "../assets/images/event-img-3.webp";
+import Program3 from "../assets/images/emotional.jpg";
 import Program4 from "../assets/images/research.jpg";
+import Program5 from "../assets/images/donate122.jpg";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -63,11 +64,6 @@ const Header = () => {
                                   Our Impact
                                 </Link>
                               </li>
-                              <li>
-                                <Link to="/about#values" className="dd-link">
-                                  Vision & Values
-                                </Link>
-                              </li>
                             </ul>
                             <ul>
                               <li>
@@ -88,22 +84,7 @@ const Header = () => {
                                   Support Center
                                 </Link>
                               </li>
-                              <li>
-                                <Link
-                                  to="/contact#feedback"
-                                  className="dd-link"
-                                >
-                                  Give Feedback
-                                </Link>
-                              </li>
-                              <li>
-                                <Link
-                                  to="/contact#feedback"
-                                  className="dd-link"
-                                >
-                                  Give Feedback
-                                </Link>
-                              </li>
+                              
                             </ul>
                             <ul>
                               <li>
@@ -121,21 +102,12 @@ const Header = () => {
                                   Support Questions
                                 </Link>
                               </li>
-                              <li>
-                                <Link to="/" className="dd-link">
-                                  Donation Questions
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/" className="dd-link">
-                                  Donation Questions
-                                </Link>
-                              </li>
+                              
                             </ul>
                           </div>
                           <div className="dd-btn-grp">
                             <Link to="/" className="secondry-btn">
-                              Donate Now
+                              Subscribe Now
                             </Link>
                           </div>
                         </div>
@@ -182,7 +154,7 @@ const Header = () => {
                         </Link>
                         <Link to="/programs" className="dd-link head">
                           <div className="dd-img-wrapper">
-                            <img src={Program4} alt="program" />
+                            <img src={Program5} alt="program" />
                           </div>
                           <span>Scholarships and Grants</span>
                         </Link>
@@ -217,7 +189,7 @@ const Header = () => {
           {/* Get Started Button */}
           <div className="btn-wrapper dmb">
             <Link to="/donate" className="primary-btn">
-              Donate Now
+              Subscribe Now
             </Link>
           </div>
         </div>

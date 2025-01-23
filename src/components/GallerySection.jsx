@@ -8,8 +8,8 @@ import EventImage2 from "../assets/images/about-img.webp";
 import EventImage3 from "../assets/images/cancer.jpg";
 import EventImage4 from "../assets/images/carwash.jpg";
 import EventImage5 from "../assets/images/event-img-3.webp";
-import EventImage6 from "../assets/images/child.jpg";
-import EventImage7 from "../assets/images/program-img.jpg";
+import EventImage6 from "../assets/images/gallery-6.jpg";
+import EventImage7 from "../assets/images/gallery-7.jpg";
 import EventImage8 from "../assets/images/about-img.webp";
 
 const images = [

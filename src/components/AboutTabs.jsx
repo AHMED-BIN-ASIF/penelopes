@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import "../css/AboutTabs.css"; // Optional: Add CSS for styling
 import CtaSection from "./CtaSection";
 import EventImg from "../assets/images/event-img.jpg";
-import ProgramImage from "../assets/images/cancer.jpg";
+import ProgramImage from "../assets/images/mission.jpg";
+import ImpactImage from "../assets/images/impact.jpg";
+import VisionImg from "../assets/images/values.jpg";
 
 const AboutTabs = () => {
   const [activeTab, setActiveTab] = useState("overview");
@@ -71,7 +73,7 @@ const AboutTabs = () => {
             <CtaSection
               ctaDirection="light reverse"
               ctaHeading="About Us"
-              ctaParagraph2="At PRAE, we are committed to improving the lives of children with leukemia and their families. With a dedicated team, impactful programs, and unwavering passion, we strive to provide support, hope, and resources to those who need it most."
+              ctaParagraph2="At Penelope Rae Foundation, we are committed to improving the lives of children with leukemia and their families. With a dedicated team, impactful programs, and unwavering passion, we strive to provide support, hope, and resources to those who need it most."
               ctaButtonText="Learn More About Our Story"
               ctaButtonUrl="/about-us"
               btnClass="primary-btn"
@@ -117,7 +119,7 @@ const AboutTabs = () => {
               ctaButtonText="See Our Results"
               ctaButtonUrl="/impact"
               btnClass="primary-btn"
-              ctaImg1={EventImg}
+              ctaImg1={ImpactImage}
               altText1="Event photo with attendees"
               altText2="Map showing statistics"
             />
@@ -138,7 +140,7 @@ const AboutTabs = () => {
               ctaButtonText="Learn About Our Values"
               ctaButtonUrl="/vision"
               btnClass="primary-btn"
-              ctaImg1={EventImg}
+              ctaImg1={VisionImg}
               altText1="Hands holding a glowing light"
               altText2="Symbol of hope and unity"
             />

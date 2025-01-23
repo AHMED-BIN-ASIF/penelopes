@@ -9,6 +9,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import "../css/Footer.css";
+import Logo from "../assets/images/logo.png"
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -16,7 +17,9 @@ const Footer = () => {
     <footer id="footer">
       <div className="footer-top">
         <div className="container">
-          <Link to="/" className="logo">PRAE</Link>
+          <Link to="/" className="footer-logo">
+            <img src={Logo} alt="logo" />
+          </Link>
           <div className="footer-content">
             <div className="link-list program-list">
               <h4>Our Programs</h4>
@@ -91,9 +94,9 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="mailto:praeforleukemiapresident@gmail.com">
+                  <Link to="mailto:hello@peneloperae.org">
                     <FaEnvelope className="icon" />
-                    <span>praeforleukemiapresident@gmail.com</span>
+                    <span>hello@peneloperae.org</span>
                   </Link>
                 </li>
                 <li>

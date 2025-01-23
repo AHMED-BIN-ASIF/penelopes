@@ -52,8 +52,8 @@ const DonorsSponsors = () => {
     <section className="donors-sponsors-section" id="donors-sponsors">
       <div className="container">
         <div className="section-header" data-aos="fade-up">
-          <span className="pre-header">Our Support Network</span>
-          <h2 className="secondry-heading">Honoring Our Donors & Sponsors</h2>
+          <span className="pre-header">Our Support Squad</span>
+          <h2 className="secondry-heading">Honoring Our Donors and Sponsors</h2>
           <p className="default-text">
             We are deeply grateful to our donors and sponsors who enable us to
             continue our mission. Their contributions and partnerships are the

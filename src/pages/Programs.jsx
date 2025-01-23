@@ -1,12 +1,12 @@
 import React from "react";
 import CtaSection from "../components/CtaSection";
-import CtaImg1 from "../assets/images/hero.avif"; // Example image for Financial Assistance
-import CtaImg2 from "../assets/images/hero.jpg"; // Example image for Counseling
-import CtaImg3 from "../assets/images/event-img.jpg"; // Example image for Education
-import CtaImg4 from "../assets/images/support-img.webp"; // Example image for Community Outreach
+import CtaImg1 from "../assets/images/event-img-3.webp"; // Example image for Financial Assistance
+import CtaImg2 from "../assets/images/emotional.jpg"; // Example image for Counseling
+import CtaImg3 from "../assets/images/educational-support.jpg"; // Example image for Education
+import CtaImg4 from "../assets/images/community.jpg"; // Example image for Community Outreach
 import NewsletterSection from "../components/NewsletterSection";
 import DonorsSponsors from "../components/DonorsSponsors";
-import TestimonialsSection from "../components/TestimonialsSection";
+// // import TestimonialsSection from "../components/TestimonialsSection";
 import DonateSection from "../components/DonateSection";
 
 const Programs = () => {
@@ -16,7 +16,7 @@ const Programs = () => {
       <div className="container">
         <h1 className="">Our Programs</h1>
         <p className="default-text">
-          At PRAE, we are committed to offering a holistic approach to support children battling leukemia and their families. Our tailored programs aim to meet every need—financial, emotional, educational, and community-driven. Learn more about the initiatives that make a difference every day.
+          At Penelope Rae Foundation, we are committed to offering a holistic approach to support children battling leukemia and their families. Our tailored programs aim to meet every need—financial, emotional, educational, and community-driven. Learn more about the initiatives that make a difference every day.
         </p>
       </div>
     </section>
@@ -76,7 +76,7 @@ const Programs = () => {
     {/* Additional Sections */}
     <DonateSection />
     <DonorsSponsors />
-    <TestimonialsSection />
+    {/* <TestimonialsSection /> */}
     <NewsletterSection />
   </>
   );

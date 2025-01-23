@@ -8,7 +8,7 @@ const DonorsSponsorsPage = () => {
       <section className="simple-hero dark">
         <div className="container">
           <div className="heading-section">
-            <h1 >Our Donors and Sponsors</h1>
+            <h1 >Our Friends of Penelope</h1>
           </div>
         </div>
       </section>

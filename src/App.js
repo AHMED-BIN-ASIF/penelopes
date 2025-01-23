@@ -11,7 +11,8 @@ import Programs from './pages/Programs';
 import Donate from './pages/Donate';
 import ContactPage from './pages/ContactPage';
 import DonorsSponsorsPage from './pages/DonorsSponsorsPage';
-import EventPage from './pages/EventPage';
+import Events from './pages/Events';
+import BlogPage from './pages/BlogPage';
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,8 @@ function App() {
           <Route path="/donate" element={<Donate />} /> {/* Home page */}
           <Route path="/contact" element={<ContactPage />} /> {/* Home page */}
           <Route path="/donors" element={<DonorsSponsorsPage />} /> {/* Home page */}
-          <Route path="/events" element={<EventPage />} /> {/* Home page */}
+          <Route path="/events" element={<Events />} /> {/* Home page */}
+          <Route path="/events/:slug" element={<BlogPage />} />
         </Routes>
         <Footer/>
       </div>

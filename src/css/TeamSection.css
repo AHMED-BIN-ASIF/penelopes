@@ -8,6 +8,9 @@
   .section-header {
     margin-bottom: 40px;
   }
+  .team-section .default-text {
+    color: #fff;
+  }
   
   .team-row {
     display: grid;

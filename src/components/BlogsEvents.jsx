@@ -1,58 +1,25 @@
 import React from "react";
 import "../css/BlogsEvents.css"; // Custom styling for blogs and events
 import { Link } from "react-router-dom";
-import Blog1 from "../assets/images/blog-1.webp";
-import Blog2 from "../assets/images/comming-event.png";
-import Blog3 from "../assets/images/program-img.jpg";
-import Blog4 from "../assets/images/event-img-3.webp";
+import { blogsData } from "../assets/data/Data";
 
 const BlogsEvents = () => {
-  // Blogs and events data for dynamic rendering
-  const blogsEvents = [
-    {
-      title: "The Impact of Community Events",
-      description:
-        "Discover how community-driven events create a ripple effect of positivity and change.",
-      image: Blog1,
-      link: "/blogs/impact-of-community-events",
-      date: "March 20, 2024",
-      type: "Blog",
-    },
-    {
-      title: "Upcoming Fundraiser: Together for Hope",
-      description:
-        "Join us for our annual fundraiser to empower families and foster resilience.",
-      image: Blog2,
-      link: "/events/together-for-hope",
-      date: "April 15, 2024",
-      type: "Event",
-    },
-    {
-      title: "Stories of Courage and Strength",
-      description:
-        "Read heartwarming stories from families supported by our foundation.",
-      image: Blog3,
-      link: "/blogs/stories-of-courage",
-      date: "February 25, 2024",
-      type: "Blog",
-    },
-    {
-      title: "Awareness Campaign: Make a Difference",
-      description:
-        "Learn how you can contribute to spreading awareness and inspiring change.",
-      image: Blog4,
-      link: "/events/make-a-difference",
-      date: "May 10, 2024",
-      type: "Blog",
-    },
-  ];
+  // Filter blogs and events from the imported data
+  const blogsEvents = blogsData.map((item) => ({
+    title: item.title,
+    description: item.description,
+    image: item.img,
+    link: `/events/${item.slug}`, // Dynamic links using slugs
+    date: item.date,
+    type: "Blog", // Add type dynamically or from data if applicable
+  }));
 
   return (
     <section id="blogs-events" className="blogs-events">
       <div className="container">
         <div className="header-row">
-        <h2 className="secondry-heading">Latest Blogs and Upcoming Events</h2>
-        <Link to="/" className="primary-btn">View All</Link>
+          <h2 className="secondry-heading">Latest Blogs and Upcoming Events</h2>
+          <Link to="/blogs" className="primary-btn">View All</Link>
         </div>
         <div className="blogs-events-row">
           {blogsEvents.map((item, index) => (
@@ -65,7 +32,9 @@ const BlogsEvents = () => {
                 />
               </div>
               <div className="blog-event-card-body">
-                <span className="blog-event-date"><strong>{item.type}</strong> | {item.date}</span>
+                <span className="blog-event-date">
+                  <strong>{item.type}</strong> | {item.date}
+                </span>
                 <h4 className="blog-event-title">{item.title}</h4>
                 <p className="blog-event-description">{item.description}</p>
               </div>

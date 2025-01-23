@@ -2,15 +2,15 @@ import React from "react";
 import Slider from "react-slick";
 import Hero from "../components/Hero";
 import CtaSection from "../components/CtaSection";
-import HeroImg1 from "../assets/images/hero.jpg";
-import HeroImg2 from "../assets/images/hero.avif";
-import HeroImg3 from "../assets/images/hero.jpg";
-import CtaImg1 from "../assets/images/about-img.webp";
+import HeroImg1 from "../assets/images/support-family.jpg";
+import HeroImg2 from "../assets/images/about-img.webp";
+import HeroImg3 from "../assets/images/transforming-live.jpg";
+import CtaImg1 from "../assets/images/purpose.jpg";
 import EventImg from "../assets/images/event-img.jpg";
 import ProgramsSection from "../components/ProgramsSection";
 import NewsletterSection from "../components/NewsletterSection";
 import DonorsSponsors from "../components/DonorsSponsors";
-import TestimonialsSection from "../components/TestimonialsSection";
+// import TestimonialsSection from "../components/TestimonialsSection";
 import BlogsEvents from "../components/BlogsEvents";
 import DonateSection from "../components/DonateSection";
 import GallerySection from "../components/GallerySection";
@@ -21,7 +21,7 @@ const Home = () => {
       title: "Supporting Families, Empowering Futures",
       subHeading: "Dedicated to Providing Comprehensive Care for Children with Leukemia",
       detail:
-        "Discover how PRAE transforms lives through tailored programs, financial support, and advocacy, ensuring every child and family receive the care and hope they deserve.",
+        "Discover how Penelope Rae Foundation transforms lives through tailored programs, financial support, and advocacy, ensuring every child and family receive the care and hope they deserve.",
       linkText: "Learn More About Our Programs",
       imageUrl: HeroImg1,
     },
@@ -77,7 +77,7 @@ const Home = () => {
       <CtaSection
         ctaDirection="reverse light"
         ctaHeading="Our Purpose and Passion"
-        ctaParagraph="PRAE is a beacon of hope for children diagnosed with acute leukemia and their families. Our purpose is to provide unwavering support, ensuring every child has access to resources that empower them on their road to recovery."
+        ctaParagraph="Penelope Rae Foundation is a beacon of hope for children diagnosed with acute leukemia and their families. Our purpose is to provide unwavering support, ensuring every child has access to resources that empower them on their road to recovery."
         ctaParagraph2="Through personalized support services, emotional and therapeutic resources, and financial aid, we alleviate the burdens faced by families navigating this challenging journey. Together, we stand for resilience, compassion, and a brighter future for every child in our care."
         // ctaListItems={ctaList}
         ctaButtonText="Explore Our Mission & Vision"
@@ -91,7 +91,7 @@ const Home = () => {
         ctaDirection=""
         ctaHeading="Join The Fight"
         ctaParagraph2="Be part of our mission by participating in our engaging events and fundraisers. From charity walks and educational seminars to family movie nights and community drives, every event brings us closer to providing critical support for children battling leukemia. Together, we can create memories, build awareness, and raise the much-needed funds to empower families on their journey to recovery."
-        ctaButtonText="Donate to Support"
+        ctaButtonText="Join Now"
         ctaButtonUrl="/donate"
         btnClass="secondry-btn"
         ctaImg1={EventImg}
@@ -100,7 +100,7 @@ const Home = () => {
       <DonorsSponsors/>
       <DonateSection/>
       <BlogsEvents/>
-      <TestimonialsSection/>
+      {/* <TestimonialsSection/> */}
       <GallerySection />
       <NewsletterSection />
     </>

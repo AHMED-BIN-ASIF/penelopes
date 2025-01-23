@@ -18,8 +18,8 @@ const ContactPage = () => {
       id: 2,
       icon: faEnvelope,
       title: "Email Us",
-      description: "praeforleukemiapresident@gmail.com",
-      link: "mailto:praeforleukemiapresident@gmail.com"
+      description: "hello@peneloperae.org",
+      link: "mailto:hello@peneloperae.org"
     },
     {
       id: 3,

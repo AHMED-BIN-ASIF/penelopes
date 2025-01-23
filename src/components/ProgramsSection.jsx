@@ -10,32 +10,32 @@ const ProgramsSection = () => {
   // Services data for dynamic rendering
   const services = [
     {
-      title: "Community Engagement & Awareness",
+      title: "Penelope's Support Squad",
       description:
         "Building solidarity through events, campaigns, and advocacy to educate the public and bring communities together.",
       image: Program1,
-      link: "/programs",
+      link: "/community-engagement",
     },
     {
-      title: "Fundraising Initiatives",
+      title: "Your Small Gift Supports Families In Need",
       description:
         "Generating essential funds through branded merchandise, donation campaigns, and innovative fundraising events.",
       image: Program2,
-      link: "/programs",
+      link: "/fundraising-initiatives",
     },
     {
-      title: "Penelope's Support Squad",
+      title: "Friends of Penelope",
       description:
         "Providing counseling, emotional support, and scholarships for survivors and their siblings to foster resilience.",
       image: Program3,
-      link: "/programs",
+      link: "/family-support",
     },
     {
-      title: "PRAE for Leukemia Research",
+      title: "Pediatric Research: Advocacy and Efficacy",
       description:
         "Driving progress in pediatric leukemia awareness, research, and long-term treatment advocacy.",
       image: Program4,
-      link: "/programs",
+      link: "/advocacy-research",
     },
   ];
 
@@ -47,7 +47,7 @@ const ProgramsSection = () => {
           <span className="pre-header">Empowering Families Through Support</span>
           <h2 className="secondry-heading">Our Programs and Services</h2>
           <p className="default-text">
-            The Penelope Rae Foundation offers tailored programs to support
+            Penelope Rae Foundation offers tailored programs to support
             families impacted by pediatric leukemia. From financial aid to
             emotional and educational support, we empower families with the
             resources and care they need during their journey. Together, we bring

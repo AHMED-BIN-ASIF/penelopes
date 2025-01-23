@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import HeroImg3 from "../assets/images/hero.jpg";
 import NewsletterSection from "../components/NewsletterSection";
 import DonorsSponsors from "../components/DonorsSponsors";
-import TestimonialsSection from "../components/TestimonialsSection";
+// import TestimonialsSection from "../components/TestimonialsSection";
 import AboutTabs from "../components/AboutTabs";
 import TeamSection from "../components/TeamSection";
 import GallerySection from "../components/GallerySection";
@@ -22,7 +22,7 @@ const About = () => {
       <AboutTabs />
       <TeamSection />
       <DonorsSponsors />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <GallerySection />
       <NewsletterSection />
     </>
